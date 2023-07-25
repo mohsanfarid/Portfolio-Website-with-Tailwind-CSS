@@ -1,6 +1,8 @@
 import React from 'react';
 import Typed from 'react-typed';
 import image from '../assets/image.png'; 
+import {AiOutlineGithub} from 'react-icons/ai';
+import {AiFillLinkedin} from 'react-icons/ai';
 
 const Hero = () => {
   return (
@@ -24,9 +26,18 @@ const Hero = () => {
             loop
           />
         </div>
-        <div className='block'>
-       <button className='bg-[#FDC435] w-[120px] rounded-md font-medium my-6 mx-auto py-2 text-[black] mr-2 font-PlayfairDisplay'>GitHub</button>
-        <button className='bg-[#FDC435] w-[120px] rounded-md font-medium my-6 mx-auto py-2 text-[black] mr-2 font-PlayfairDisplay'>LinkedIn</button>
+        <div className='block'> 
+        <a href="https://github.com/mohsanfarid" target="_blank" rel="noopener noreferrer">
+        
+      
+       <button className='bg-[#FDC435] w-[120px] rounded-md font-medium my-6 mx-auto py-2 text-[black] mr-2 font-PlayfairDisplay'><AiOutlineGithub className='inline-block justify-center mr-[4px] mt-[-5px] text-[25px]'/>GitHub</button>
+       </a>  
+       
+
+       <a href="https://www.linkedin.com/in/mohsan-farid/" target="_blank" rel="noopener noreferrer">
+        
+        <button className='bg-[#FDC435] w-[120px] rounded-md font-medium my-6 mx-auto py-2 text-[black] mr-2 font-PlayfairDisplay'><AiFillLinkedin className='inline-block justify-center mr-[4px] mt-[-5px] text-[25px]'/>LinkedIn</button>
+        </a> 
         </div>
       </div>
       <div className='max-w-[700px] w-[50%] relative z-0 mr-[0]'>

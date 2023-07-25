@@ -10,8 +10,7 @@ function App() {
     <div className='bg-[#F9FAFF]'>
       <Navbar />
       <Hero />
-      <Analytics /> 
-      <Cards />
+      <Analytics />  
       <Footer />
     </div>
   );
