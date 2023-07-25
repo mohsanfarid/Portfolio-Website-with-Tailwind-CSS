@@ -2,9 +2,10 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
-      color:{
-        'yellow-shadow' : '#FFC637'
-      }
+      fontFamily: {
+        PlayfairDisplay: ['Playfair Display', 'serif'],
+        comforta:['Comfortaa', 'serif']
+       }
     },
   },
   plugins: [],
